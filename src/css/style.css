@@ -1,0 +1,13 @@
+input[type=text]  {
+    background: url(/src/Image/search.png) no-repeat scroll 7px 7px;
+    background-size: 25px;
+    padding-left: 35px;
+    width: 500px !important;
+}
+
+.bad{
+    position: relative;
+    border: 2px solid white;
+    top: -10px;
+}
+  
