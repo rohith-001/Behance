@@ -10,4 +10,41 @@ input[type=text]  {
     border: 2px solid white;
     top: -10px;
 }
+
+.page___signin{
+    background: url(/src/Image/signin.jpg) no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: greenyellow;
+}
   
+.google_logo{
+    background: url(/src/Image/google_logo.png) no-repeat 26% 12px;
+    background-color: white;
+    background-size: 20px;
+    width: 100%;
+    padding: 10px;
+}
+.facebook_logo{
+    background: url(/src/Image/facebook_logo.png) no-repeat 26% 12px;
+    background-color: rgba(89, 55, 238, 0.904);
+    background-size: 20px;
+    width: 100%;
+    padding: 10px;
+}
+.apple_logo{
+    background: url(/src/Image/apple_logo.png) no-repeat 26% 12px;
+    background-color: rgb(0, 0, 0);
+    background-size: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+.input___field:focus{
+    border-bottom: 2px blue;
+    border-bottom-width: medium;
+    border-style: ridge;
+}
