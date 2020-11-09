@@ -14,14 +14,15 @@
 <body>
     <div class="page___signin row">
         <div class="col-6 d-none d-lg-flex  align-items-center justify-content-center">
+            <img src="src/Image/" alt="">
             <img class="mb-2" width="10%" src="/src/Image/behance_mini.png" alt=""><span class="h1 text-white">Behance</span>
         </div>
         <div class="col-lg-6 col-12 bg-white d-flex align-items-center justify-content-center">
             <div class="container">
                 <div>
                     <div>
-                        <h1>Sign in</h1>
-                        <p class="text-muted">New user? <span class="font-weight-normal"><a href="signup.html">Create an account</a></span></p>    
+                        <h1>Create an account</h1>
+                        <p class="text-muted">Already have an account? <span><a href="singin.html">Sign in</a></span></p>    
                     </div>
 
                     <br>
@@ -32,17 +33,43 @@
                         
                         <label class="text-muted font-weight-light" for="password">Password</label>
                         <input type="password" class="form-control input___field bg-light" id="password" placeholder="Password"><br>
-                    </div>
 
+                    </div>
+                    <div>
+                        <label class="text-muted font-weight-light" for="department">Department</label>
+                        <select id="department" class="form-control bg-light">
+                            <option> GMD</option>
+                            <option> UID</option>
+                            <option> AMD</option>
+                        </select>
+                        <br>
+                        <label class="text-muted font-weight-light" for="state">State</label>
+                        <select id="state" class="form-control bg-light">
+                            <option> Bangalore</option>
+                            <option> Hyderabad</option>
+                            <option> Chennai</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Student</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Staff</label>
+                          </div>
+                    </div>
+                    <br>
                         <a href="index.html" class="btn btn-primary rounded-pill font-weight-bold float-right">Continue</a>
                 </div>
-
                 <br><br>
 
-                <div>
+                <!-- <div>
                     <button class="google_logo font-weight-bold btn border bold rounded-pill mt-2">Continue with Google</button>
                     <button class="facebook_logo font-weight-bold btn bold text-white rounded-pill mt-2">Continue with Facebook</button>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

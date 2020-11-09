@@ -12,13 +12,11 @@ input[type=text]  {
 }
 
 .page___signin{
-    background: url(/src/Image/signin.jpg) no-repeat;
     position: absolute;
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: greenyellow;
 }
   
 .google_logo{
@@ -35,7 +33,7 @@ input[type=text]  {
     width: 100%;
     padding: 10px;
 }
-.apple_logo{
+.apple_logo:nt{
     background: url(/src/Image/apple_logo.png) no-repeat 26% 12px;
     background-color: rgb(0, 0, 0);
     background-size: 20px;
