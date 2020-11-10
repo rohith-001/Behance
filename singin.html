@@ -12,36 +12,41 @@
     <script src="dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="page___signin row">
-        <div class="col-6 d-none d-lg-flex  align-items-center justify-content-center">
-            <img class="mb-2" width="10%" src="/src/Image/behance_mini.png" alt=""><span class="h1 text-white">Behance</span>
+    <div>
+        <div class="register__brand">
+            <img src="src/Image/Behance_max.png" alt="">
+            <span class="h1">Behance</span>
         </div>
-        <div class="col-lg-6 col-12 bg-white d-flex align-items-center justify-content-center">
-            <div class="container">
-                <div>
-                    <div>
-                        <h1>Sign in</h1>
-                        <p class="text-muted">New user? <span class="font-weight-normal"><a href="signup.html">Create an account</a></span></p>    
-                    </div>
-
-                    <br>
-
-                    <div class="form-group">
-                        <label class="text-muted font-weight-light" for="emaill">Email address</label>
-                        <input type="email" class="form-control  input___field bg-light" id="emaill" placeholder="Enter email"><br>
-                        
-                        <label class="text-muted font-weight-light" for="password">Password</label>
-                        <input type="password" class="form-control input___field bg-light" id="password" placeholder="Password"><br>
-                    </div>
-
-                        <a href="index.html" class="btn btn-primary rounded-pill font-weight-bold float-right">Continue</a>
-                </div>
-
-                <br><br>
+        <img class="register__bg" src="src/Image/Bg_register.jpg" alt="">
+        <div class="register__content container px-5 py-5 ">
+            <div>
+                <img class="behance___mini img-fluid" src="src/Image/Behance_mini.png" alt="">
+                <span class="font-weight-bold">Behance</span>
+            </div><br>
+    
+            <h2 class="font-weight-bolder">Create an account</h2>
+            <p class="text-muted">New user?<a href="signup.html">&nbsp;Sign up</a></p>
+    
+            <div class="signup__form form-group">
+                <label for="emaill">Email address</label>
+                <input type="email" class="form-control  input___field bg-light" id="emaill"><br>
+                
+                <label for="password">Password</label>
+                <input type="password" class="form-control input___field bg-light" id="password" ><br>
+           
+                <a href="index.html" class="btn btn-primary rounded-pill font-weight-bold float-right">Continue</a><br><br><br><br>
+                
+                <p class="signin__hr text-center">Or</p>
 
                 <div>
-                    <button class="google_logo font-weight-bold btn border bold rounded-pill mt-2">Continue with Google</button>
-                    <button class="facebook_logo font-weight-bold btn bold text-white rounded-pill mt-2">Continue with Facebook</button>
+                    <div class="w-100 font-weight-bold btn border bold rounded-pill p-3">
+                        <img src="src/Image/google.png" class="google__logo" alt="">
+                        <span>&nbsp;Continue with Google</span>
+                    </div><br><br>
+                    <div class="w-100 fb font-weight-bold text-white btn border bold rounded-pill p-3">
+                        <img src="src/Image/facebook.png" class="google__logo" alt="">
+                        <span>&nbsp;Continue with facebook</span>
+                    </div>
                 </div>
             </div>
         </div>
